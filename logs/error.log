@@ -1,0 +1,2113 @@
+2024-11-13 03:26:45 error: [Cake\Routing\Exception\MissingRouteException] A route matching `/` could not be found. in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\RouteCollection.php on line 180
+Exception Attributes: array (
+  'url' => '/',
+)
+Stack Trace:
+- CORE\src\Routing\Router.php:197
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:96
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-13 03:27:35 error: [Cake\Routing\Exception\MissingRouteException] A route matching `/` could not be found. in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\RouteCollection.php on line 180
+Exception Attributes: array (
+  'url' => '/',
+)
+Stack Trace:
+- CORE\src\Routing\Router.php:197
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:96
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-13 03:35:56 error: [Error] Call to a member function newEmptyEntity() on null in C:\xampp\htdocs\proyecto_cbtis\src\Controller\usuariosController.php on line 13
+Stack Trace:
+- CORE\src\Controller\Controller.php:503
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /usuarios/agregar
+Referer URL: http://localhost:8765/
+2024-11-13 03:35:56 warning: Unable to emit headers. Headers sent in file=C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=37
+Request URL: /usuarios/agregar
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-13 03:35:56 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /usuarios/agregar
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 163
+Cake\Http\ResponseEmitter->emitStatusLine() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-13 03:35:56 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /usuarios/agregar
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-13 03:35:56 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /usuarios/agregar
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-13 03:37:37 error: [Error] Call to a member function newEmptyEntity() on null in C:\xampp\htdocs\proyecto_cbtis\src\Controller\usuariosController.php on line 13
+Stack Trace:
+- CORE\src\Controller\Controller.php:503
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /usuarios/agregar
+Referer URL: http://localhost:8765/
+2024-11-13 03:37:37 warning: Unable to emit headers. Headers sent in file=C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=37
+Request URL: /usuarios/agregar
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-13 03:37:37 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /usuarios/agregar
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 163
+Cake\Http\ResponseEmitter->emitStatusLine() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-13 03:37:37 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /usuarios/agregar
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-13 03:37:37 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /usuarios/agregar
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-13 03:41:30 error: [Error] Call to undefined method App\Controller\UsuariosController::loadModel() in C:\xampp\htdocs\proyecto_cbtis\src\Controller\usuariosController.php on line 11
+Stack Trace:
+- CORE\src\Controller\Controller.php:238
+- [internal]:??
+- CORE\src\Controller\ControllerFactory.php:111
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /usuarios/agregar
+Referer URL: http://localhost:8765/
+2024-11-13 03:48:18 error: [Error] Call to undefined method App\Controller\UsuariosController::loadModel() in C:\xampp\htdocs\proyecto_cbtis\src\Controller\UsuariosController.php on line 11
+Stack Trace:
+- CORE\src\Controller\Controller.php:238
+- [internal]:??
+- CORE\src\Controller\ControllerFactory.php:111
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /usuarios/agregar
+Referer URL: http://localhost:8765/
+2024-11-13 04:00:43 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Usuarios` could not be found. in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 250
+Exception Attributes: array (
+  0 => 'for alias `Usuarios`',
+)
+Stack Trace:
+- CORE\src\Datasource\Locator\AbstractLocator.php:68
+- CORE\src\ORM\Locator\TableLocator.php:212
+- APP/Controller\UsuariosController.php:15
+- CORE\src\Controller\Controller.php:238
+- [internal]:??
+- CORE\src\Controller\ControllerFactory.php:111
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /usuarios/agregar
+Referer URL: http://localhost:8765/
+2024-11-13 04:03:23 warning: Undefined variable $user
+Request URL: /usuarios/agregar
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\View\View.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\View\View.php, line 1188
+Cake\View\View->_evaluate() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\View\View.php, line 1145
+Cake\View\View->_render() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\View\View.php, line 785
+Cake\View\View->render() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 710
+Cake\Controller\Controller->render() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 514
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-13 04:03:49 error: [Cake\Controller\Exception\MissingActionException] Action `UsuariosController::index()` could not be found, or is not accessible. in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php on line 483
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'index',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:161
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /usuarios
+Referer URL: http://localhost:8765/usuarios/agregar
+2024-11-13 04:36:48 warning: Undefined variable $user
+Request URL: /usuarios/agregar
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\View\View.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\View\View.php, line 1188
+Cake\View\View->_evaluate() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\View\View.php, line 1145
+Cake\View\View->_render() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\View\View.php, line 785
+Cake\View\View->render() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 710
+Cake\Controller\Controller->render() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 514
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-13 04:39:17 warning: Undefined variable $user
+Request URL: /usuarios/agregar
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\View\View.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\View\View.php, line 1188
+Cake\View\View->_evaluate() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\View\View.php, line 1145
+Cake\View\View->_render() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\View\View.php, line 785
+Cake\View\View->render() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 710
+Cake\Controller\Controller->render() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 514
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-13 04:41:11 warning: Undefined variable $usuarios
+Request URL: /usuarios/agregar
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\View\View.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\View\View.php, line 1188
+Cake\View\View->_evaluate() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\View\View.php, line 1145
+Cake\View\View->_render() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\View\View.php, line 785
+Cake\View\View->render() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 710
+Cake\Controller\Controller->render() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 514
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-13 05:24:37 error: [Cake\Controller\Exception\MissingActionException] Action `PagesController::display()` could not be found, or is not accessible. in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php on line 483
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'display',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:161
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-13 05:25:45 error: [Error] Call to a member function find() on null in C:\xampp\htdocs\proyecto_cbtis\src\Controller\PagesController.php on line 48
+Stack Trace:
+- CORE\src\Controller\Controller.php:503
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-13 05:25:45 warning: Unable to emit headers. Headers sent in file=C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=37
+Request URL: /
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-13 05:25:45 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 163
+Cake\Http\ResponseEmitter->emitStatusLine() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-13 05:25:45 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-13 05:25:45 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-13 05:26:08 error: [Error] Call to a member function find() on null in C:\xampp\htdocs\proyecto_cbtis\src\Controller\PagesController.php on line 48
+Stack Trace:
+- CORE\src\Controller\Controller.php:503
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-13 05:26:08 warning: Unable to emit headers. Headers sent in file=C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=37
+Request URL: /
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-13 05:26:08 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 163
+Cake\Http\ResponseEmitter->emitStatusLine() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-13 05:26:08 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-13 05:26:08 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-13 05:26:14 warning: Undefined variable $libros
+Request URL: /
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\View\View.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\View\View.php, line 1188
+Cake\View\View->_evaluate() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\View\View.php, line 1145
+Cake\View\View->_render() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\View\View.php, line 785
+Cake\View\View->render() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 710
+Cake\Controller\Controller->render() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PagesController.php, line 65
+App\Controller\PagesController->display() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-13 05:26:14 warning: foreach() argument must be of type array|object, null given
+Request URL: /
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\View\View.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\View\View.php, line 1188
+Cake\View\View->_evaluate() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\View\View.php, line 1145
+Cake\View\View->_render() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\View\View.php, line 785
+Cake\View\View->render() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 710
+Cake\Controller\Controller->render() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PagesController.php, line 65
+App\Controller\PagesController->display() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-13 05:28:16 error: [Cake\Controller\Exception\MissingActionException] Action `PagesController::display()` could not be found, or is not accessible. in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php on line 483
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'display',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:161
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-13 05:32:27 error: [Cake\Controller\Exception\MissingActionException] Action `PagesController::display()` could not be found, or is not accessible. in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php on line 483
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'display',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:161
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-13 05:33:33 error: [Error] Class "App\Controller\TableRegistry" not found in C:\xampp\htdocs\proyecto_cbtis\src\Controller\PagesController.php on line 51
+Stack Trace:
+- CORE\src\Controller\Controller.php:503
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-13 05:34:06 error: [Error] Class "App\Controller\TableRegistry" not found in C:\xampp\htdocs\proyecto_cbtis\src\Controller\PagesController.php on line 51
+Stack Trace:
+- CORE\src\Controller\Controller.php:503
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-13 05:34:07 error: [Error] Class "App\Controller\TableRegistry" not found in C:\xampp\htdocs\proyecto_cbtis\src\Controller\PagesController.php on line 51
+Stack Trace:
+- CORE\src\Controller\Controller.php:503
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-13 05:34:18 error: [Error] Call to a member function find() on null in C:\xampp\htdocs\proyecto_cbtis\src\Controller\PagesController.php on line 52
+Stack Trace:
+- CORE\src\Controller\Controller.php:503
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-13 05:34:18 warning: Unable to emit headers. Headers sent in file=C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=37
+Request URL: /
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-13 05:34:18 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 163
+Cake\Http\ResponseEmitter->emitStatusLine() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-13 05:34:18 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-13 05:34:18 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-13 05:34:34 error: [Error] Class "App\Controller\TableRegistry" not found in C:\xampp\htdocs\proyecto_cbtis\src\Controller\PagesController.php on line 51
+Stack Trace:
+- CORE\src\Controller\Controller.php:503
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-13 05:36:20 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Libros` could not be found. in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 250
+Exception Attributes: array (
+  0 => 'for alias `Libros`',
+)
+Stack Trace:
+- CORE\src\Datasource\Locator\AbstractLocator.php:68
+- CORE\src\ORM\Locator\TableLocator.php:212
+- APP/Controller\PagesController.php:52
+- CORE\src\Controller\Controller.php:503
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-13 05:36:38 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Libro` could not be found. in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 250
+Exception Attributes: array (
+  0 => 'for alias `Libro`',
+)
+Stack Trace:
+- CORE\src\Datasource\Locator\AbstractLocator.php:68
+- CORE\src\ORM\Locator\TableLocator.php:212
+- APP/Controller\PagesController.php:52
+- CORE\src\Controller\Controller.php:503
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-13 05:36:40 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Libro` could not be found. in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 250
+Exception Attributes: array (
+  0 => 'for alias `Libro`',
+)
+Stack Trace:
+- CORE\src\Datasource\Locator\AbstractLocator.php:68
+- CORE\src\ORM\Locator\TableLocator.php:212
+- APP/Controller\PagesController.php:52
+- CORE\src\Controller\Controller.php:503
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-13 05:38:02 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Libros` could not be found. in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 250
+Exception Attributes: array (
+  0 => 'for alias `Libros`',
+)
+Stack Trace:
+- CORE\src\Datasource\Locator\AbstractLocator.php:68
+- CORE\src\ORM\Locator\TableLocator.php:212
+- APP/Controller\PagesController.php:12
+- CORE\src\Controller\Controller.php:503
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-13 05:38:37 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Libro` could not be found. in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 250
+Exception Attributes: array (
+  0 => 'for alias `Libro`',
+)
+Stack Trace:
+- CORE\src\Datasource\Locator\AbstractLocator.php:68
+- CORE\src\ORM\Locator\TableLocator.php:212
+- APP/Controller\PagesController.php:12
+- CORE\src\Controller\Controller.php:503
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-13 05:39:49 error: [Error] Call to undefined method App\Controller\PagesController::loadModel() in C:\xampp\htdocs\proyecto_cbtis\src\Controller\PagesController.php on line 11
+Stack Trace:
+- CORE\src\Controller\Controller.php:503
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-13 05:41:31 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Libro` could not be found. in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 250
+Exception Attributes: array (
+  0 => 'for alias `Libro`',
+)
+Stack Trace:
+- CORE\src\Datasource\Locator\AbstractLocator.php:68
+- CORE\src\ORM\Locator\TableLocator.php:212
+- APP/Controller\PagesController.php:15
+- CORE\src\Controller\Controller.php:238
+- [internal]:??
+- CORE\src\Controller\ControllerFactory.php:111
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-13 05:43:20 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Libros` could not be found. in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 250
+Exception Attributes: array (
+  0 => 'for alias `Libros`',
+)
+Stack Trace:
+- CORE\src\Datasource\Locator\AbstractLocator.php:68
+- CORE\src\ORM\Locator\TableLocator.php:212
+- APP/Controller\PagesController.php:15
+- CORE\src\Controller\Controller.php:238
+- [internal]:??
+- CORE\src\Controller\ControllerFactory.php:111
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-13 05:43:22 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Libros` could not be found. in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 250
+Exception Attributes: array (
+  0 => 'for alias `Libros`',
+)
+Stack Trace:
+- CORE\src\Datasource\Locator\AbstractLocator.php:68
+- CORE\src\ORM\Locator\TableLocator.php:212
+- APP/Controller\PagesController.php:15
+- CORE\src\Controller\Controller.php:238
+- [internal]:??
+- CORE\src\Controller\ControllerFactory.php:111
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-13 05:44:17 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `libros` could not be found. in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 250
+Exception Attributes: array (
+  0 => 'for alias `libros`',
+)
+Stack Trace:
+- CORE\src\Datasource\Locator\AbstractLocator.php:68
+- CORE\src\ORM\Locator\TableLocator.php:212
+- APP/Controller\PagesController.php:15
+- CORE\src\Controller\Controller.php:238
+- [internal]:??
+- CORE\src\Controller\ControllerFactory.php:111
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-13 05:48:55 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `libros` could not be found. in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 250
+Exception Attributes: array (
+  0 => 'for alias `libros`',
+)
+Stack Trace:
+- CORE\src\Datasource\Locator\AbstractLocator.php:68
+- CORE\src\ORM\Locator\TableLocator.php:212
+- APP/Controller\PagesController.php:15
+- CORE\src\Controller\Controller.php:238
+- [internal]:??
+- CORE\src\Controller\ControllerFactory.php:111
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-13 05:49:47 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Libros` could not be found. in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 250
+Exception Attributes: array (
+  0 => 'for alias `Libros`',
+)
+Stack Trace:
+- CORE\src\Datasource\Locator\AbstractLocator.php:68
+- CORE\src\ORM\Locator\TableLocator.php:212
+- APP/Controller\PagesController.php:15
+- CORE\src\Controller\Controller.php:238
+- [internal]:??
+- CORE\src\Controller\ControllerFactory.php:111
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-13 05:52:13 error: [Error] Call to undefined method App\Controller\PagesController::loadModel() in C:\xampp\htdocs\proyecto_cbtis\src\Controller\PagesController.php on line 12
+Stack Trace:
+- CORE\src\Controller\Controller.php:503
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-13 05:54:04 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Libros` could not be found. in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 250
+Exception Attributes: array (
+  0 => 'for alias `Libros`',
+)
+Stack Trace:
+- CORE\src\Datasource\Locator\AbstractLocator.php:68
+- CORE\src\ORM\Locator\TableLocator.php:212
+- APP/Controller\PagesController.php:13
+- CORE\src\Controller\Controller.php:503
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-13 05:54:24 error: [Cake\Controller\Exception\MissingActionException] Action `PagesController::index()` could not be found, or is not accessible. in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php on line 483
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'index',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:161
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-13 05:54:43 error: [Cake\View\Exception\MissingTemplateException] Template file `Pages\index.php` could not be found.
+
+The following paths were searched:
+
+- `C:\xampp\htdocs\proyecto_cbtis\templates\Pages\index.php`
+- `C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\templates\Pages\index.php`
+ in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\View\View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Pages\\index.php',
+  'paths' => 
+  array (
+    0 => 'C:\\xampp\\htdocs\\proyecto_cbtis\\templates\\',
+    1 => 'C:\\xampp\\htdocs\\proyecto_cbtis\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- CORE\src\View\View.php:782
+- CORE\src\Controller\Controller.php:710
+- CORE\src\Controller\Controller.php:514
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-13 15:21:23 error: [Cake\View\Exception\MissingTemplateException] Template file `Pages\index.php` could not be found.
+
+The following paths were searched:
+
+- `C:\xampp\htdocs\proyecto_cbtis\templates\Pages\index.php`
+- `C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\templates\Pages\index.php`
+ in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\View\View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Pages\\index.php',
+  'paths' => 
+  array (
+    0 => 'C:\\xampp\\htdocs\\proyecto_cbtis\\templates\\',
+    1 => 'C:\\xampp\\htdocs\\proyecto_cbtis\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- CORE\src\View\View.php:782
+- CORE\src\Controller\Controller.php:710
+- CORE\src\Controller\Controller.php:514
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-13 15:25:54 error: [Cake\Http\Exception\MissingControllerException] Controller class `Pages` could not be found. in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Pages',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:77
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-13 15:26:27 error: [Cake\Http\Exception\MissingControllerException] Controller class `Pages` could not be found. in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Pages',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:77
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-13 15:33:40 error: [Cake\Controller\Exception\MissingActionException] Action `PagesController::index()` could not be found, or is not accessible. in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php on line 483
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'index',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:161
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-13 15:34:36 error: [Cake\Routing\Exception\MissingRouteException] A route matching `/` could not be found. in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\RouteCollection.php on line 180
+Exception Attributes: array (
+  'url' => '/',
+)
+Stack Trace:
+- CORE\src\Routing\Router.php:197
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:96
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-13 15:36:34 error: [Cake\Controller\Exception\MissingActionException] Action `PagesController::home()` could not be found, or is not accessible. in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php on line 483
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'home',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:161
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-13 15:37:08 error: [Error] Call to undefined method App\Controller\PagesController::loadModel() in C:\xampp\htdocs\proyecto_cbtis\src\Controller\PagesController.php on line 18
+Stack Trace:
+- CORE\src\Controller\Controller.php:503
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-13 15:43:45 error: [Error] Class "App\Controller\TableRegistry" not found in C:\xampp\htdocs\proyecto_cbtis\src\Controller\PagesController.php on line 17
+Stack Trace:
+- CORE\src\Controller\Controller.php:503
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-13 15:51:52 error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Database\Type\StringType.php on line 95
+Stack Trace:
+- CORE\src\ORM\Marshaller.php:79
+- CORE\src\ORM\Marshaller.php:588
+- CORE\src\ORM\Table.php:3060
+- APP/Controller\UsuariosController.php:22
+- CORE\src\Controller\Controller.php:503
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:162
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /usuarios/agregar
+Referer URL: http://localhost:8765/usuarios/agregar
+2024-11-13 21:23:08 error: [TypeError] base64_encode(): Argument #1 ($string) must be of type string, resource given in C:\xampp\htdocs\proyecto_cbtis\templates\Pages\home.php on line 87
+Stack Trace:
+- ROOT\templates\Pages\home.php:87
+- CORE\src\View\View.php:1188
+- CORE\src\View\View.php:1145
+- CORE\src\View\View.php:785
+- CORE\src\Controller\Controller.php:710
+- CORE\src\Controller\Controller.php:514
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-13 21:28:16 error: [TypeError] base64_encode(): Argument #1 ($string) must be of type string, resource given in C:\xampp\htdocs\proyecto_cbtis\templates\Pages\home.php on line 88
+Stack Trace:
+- ROOT\templates\Pages\home.php:88
+- CORE\src\View\View.php:1188
+- CORE\src\View\View.php:1145
+- CORE\src\View\View.php:785
+- CORE\src\Controller\Controller.php:710
+- CORE\src\Controller\Controller.php:514
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-13 21:30:22 error: [TypeError] base64_encode(): Argument #1 ($string) must be of type string, resource given in C:\xampp\htdocs\proyecto_cbtis\templates\Pages\home.php on line 88
+Stack Trace:
+- ROOT\templates\Pages\home.php:88
+- CORE\src\View\View.php:1188
+- CORE\src\View\View.php:1145
+- CORE\src\View\View.php:785
+- CORE\src\Controller\Controller.php:710
+- CORE\src\Controller\Controller.php:514
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-13 21:30:43 error: [TypeError] base64_encode(): Argument #1 ($string) must be of type string, resource given in C:\xampp\htdocs\proyecto_cbtis\templates\Pages\home.php on line 88
+Stack Trace:
+- ROOT\templates\Pages\home.php:88
+- CORE\src\View\View.php:1188
+- CORE\src\View\View.php:1145
+- CORE\src\View\View.php:785
+- CORE\src\Controller\Controller.php:710
+- CORE\src\Controller\Controller.php:514
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-14 05:54:06 error: [Error] Class "AppController" not found in C:\xampp\htdocs\proyecto_cbtis\src\Controller\PrestamosController.php on line 2
+Stack Trace:
+- ROOT\vendor\composer\ClassLoader.php:576
+- ROOT\vendor\composer\ClassLoader.php:427
+- [internal]:??
+- CORE\src\Core\App.php:162
+- CORE\src\Core\App.php:69
+- CORE\src\Controller\ControllerFactory.php:324
+- CORE\src\Controller\ControllerFactory.php:75
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /prestamos/add?libro_id=10
+Referer URL: http://localhost:8765/
+2024-11-14 06:36:15 error: [Cake\Http\Exception\MissingControllerException] Controller class `Libros` could not be found. in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Libros',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:77
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /libros
+Referer URL: http://localhost:8765/prestamos/add?libro_id=9
+2024-11-14 07:04:38 error: [Cake\Http\Exception\MissingControllerException] Controller class `Home.php` could not be found. in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Home.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:320
+- CORE\src\Controller\ControllerFactory.php:75
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:78
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /home.php
+Referer URL: http://localhost:8765/
+2024-11-14 07:42:38 error: [Cake\Controller\Exception\MissingActionException] Action `PrestamosController::listar()` could not be found, or is not accessible. in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php on line 483
+Exception Attributes: array (
+  'controller' => 'PrestamosController',
+  'action' => 'listar',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:161
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /Prestamos/listar
+Referer URL: http://localhost:8765/
+2024-11-14 07:44:25 error: [Cake\Controller\Exception\MissingActionException] Action `PrestamosController::listar()` could not be found, or is not accessible. in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php on line 483
+Exception Attributes: array (
+  'controller' => 'PrestamosController',
+  'action' => 'listar',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:161
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /Prestamos/listar
+Referer URL: http://localhost:8765/
+2024-11-14 07:44:49 error: [Cake\Controller\Exception\MissingActionException] Action `PrestamosController::listar()` could not be found, or is not accessible. in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php on line 483
+Exception Attributes: array (
+  'controller' => 'PrestamosController',
+  'action' => 'listar',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:161
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /Prestamos/listar
+Referer URL: http://localhost:8765/
+2024-11-14 07:47:00 error: [Cake\Controller\Exception\MissingActionException] Action `PrestamosController::listar()` could not be found, or is not accessible. in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php on line 483
+Exception Attributes: array (
+  'controller' => 'PrestamosController',
+  'action' => 'listar',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:161
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /Prestamos/listar
+Referer URL: http://localhost:8765/
+2024-11-14 07:47:11 error: [Cake\Controller\Exception\MissingActionException] Action `PrestamosController::listar()` could not be found, or is not accessible. in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php on line 483
+Exception Attributes: array (
+  'controller' => 'PrestamosController',
+  'action' => 'listar',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:161
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /Prestamos/listar
+Referer URL: http://localhost:8765/Prestamos/index
+2024-11-22 14:49:41 error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Database\Driver.php on line 202
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión',
+)
+Stack Trace:
+- CORE\src\Database\Driver\Mysql.php:158
+- CORE\src\Database\Schema\SchemaDialect.php:51
+- CORE\src\Database\Driver\Mysql.php:204
+- CORE\src\Database\Schema\Collection.php:53
+- CORE\src\Database\Connection.php:379
+- CORE\src\ORM\Table.php:545
+- CORE\src\ORM\Query\CommonQueryTrait.php:48
+- CORE\src\ORM\Query\SelectQuery.php:201
+- CORE\src\ORM\Query\QueryFactory.php:34
+- CORE\src\ORM\Table.php:1759
+- CORE\src\ORM\Table.php:1296
+- APP/Controller\PagesController.php:20
+- CORE\src\Controller\Controller.php:503
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:159
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Database\Driver.php on line 195
+Stack Trace:
+- CORE\src\Database\Driver.php:195
+- CORE\src\Core\Retry\CommandRetry.php:71
+- CORE\src\Database\Driver.php:200
+- CORE\src\Database\Driver\Mysql.php:158
+- CORE\src\Database\Schema\SchemaDialect.php:51
+- CORE\src\Database\Driver\Mysql.php:204
+- CORE\src\Database\Schema\Collection.php:53
+- CORE\src\Database\Connection.php:379
+- CORE\src\ORM\Table.php:545
+- CORE\src\ORM\Query\CommonQueryTrait.php:48
+- CORE\src\ORM\Query\SelectQuery.php:201
+- CORE\src\ORM\Query\QueryFactory.php:34
+- CORE\src\ORM\Table.php:1759
+- CORE\src\ORM\Table.php:1296
+- APP/Controller\PagesController.php:20
+- CORE\src\Controller\Controller.php:503
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:159
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2024-11-27 04:06:01 error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1049] Unknown database 'biblioteca22' in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Database\Driver.php on line 202
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1049] Unknown database \'biblioteca22\'',
+)
+Stack Trace:
+- CORE\src\Database\Driver\Mysql.php:158
+- CORE\src\Database\Schema\SchemaDialect.php:51
+- CORE\src\Database\Driver\Mysql.php:204
+- CORE\src\Database\Schema\Collection.php:53
+- CORE\src\Database\Connection.php:379
+- CORE\src\ORM\Table.php:545
+- CORE\src\ORM\Query\CommonQueryTrait.php:48
+- CORE\src\ORM\Query\SelectQuery.php:201
+- CORE\src\ORM\Query\QueryFactory.php:34
+- CORE\src\ORM\Table.php:1759
+- CORE\src\ORM\Table.php:1296
+- APP/Controller\PagesController.php:20
+- CORE\src\Controller\Controller.php:503
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000] [1049] Unknown database 'biblioteca22' in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Database\Driver.php on line 195
+Stack Trace:
+- CORE\src\Database\Driver.php:195
+- CORE\src\Core\Retry\CommandRetry.php:71
+- CORE\src\Database\Driver.php:200
+- CORE\src\Database\Driver\Mysql.php:158
+- CORE\src\Database\Schema\SchemaDialect.php:51
+- CORE\src\Database\Driver\Mysql.php:204
+- CORE\src\Database\Schema\Collection.php:53
+- CORE\src\Database\Connection.php:379
+- CORE\src\ORM\Table.php:545
+- CORE\src\ORM\Query\CommonQueryTrait.php:48
+- CORE\src\ORM\Query\SelectQuery.php:201
+- CORE\src\ORM\Query\QueryFactory.php:34
+- CORE\src\ORM\Table.php:1759
+- CORE\src\ORM\Table.php:1296
+- APP/Controller\PagesController.php:20
+- CORE\src\Controller\Controller.php:503
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /

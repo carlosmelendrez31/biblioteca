@@ -1,0 +1,1351 @@
+2024-11-13 03:35:56 notice: Undefined property `usuariosController::$Users` in `C:\xampp\htdocs\proyecto_cbtis\src\Controller\usuariosController.php` on line 13
+Request URL: /usuarios/agregar
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 324
+Cake\Controller\Controller->__get() C:\xampp\htdocs\proyecto_cbtis\src\Controller\usuariosController.php, line 13
+App\Controller\usuariosController->add() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-13 03:37:37 notice: Undefined property `usuariosController::$usuarios` in `C:\xampp\htdocs\proyecto_cbtis\src\Controller\usuariosController.php` on line 13
+Request URL: /usuarios/agregar
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 324
+Cake\Controller\Controller->__get() C:\xampp\htdocs\proyecto_cbtis\src\Controller\usuariosController.php, line 13
+App\Controller\usuariosController->add() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-13 05:25:45 notice: Undefined property `PagesController::$Libros` in `C:\xampp\htdocs\proyecto_cbtis\src\Controller\PagesController.php` on line 48
+Request URL: /
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 324
+Cake\Controller\Controller->__get() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PagesController.php, line 48
+App\Controller\PagesController->display() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-13 05:26:08 notice: Undefined property `PagesController::$Libros` in `C:\xampp\htdocs\proyecto_cbtis\src\Controller\PagesController.php` on line 48
+Request URL: /
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 324
+Cake\Controller\Controller->__get() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PagesController.php, line 48
+App\Controller\PagesController->display() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-13 05:34:18 notice: Undefined property `PagesController::$Libros` in `C:\xampp\htdocs\proyecto_cbtis\src\Controller\PagesController.php` on line 52
+Request URL: /
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 324
+Cake\Controller\Controller->__get() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PagesController.php, line 52
+App\Controller\PagesController->index() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-14 06:00:17 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /prestamos/add?libro_id=8
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2720
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2649
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 1296
+Cake\ORM\Table->find() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Association.php, line 849
+Cake\ORM\Association->find() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PrestamosController.php, line 24
+App\Controller\PrestamosController->add() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-14 06:15:49 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /prestamos/add?libro_id=8
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2720
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2649
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 1296
+Cake\ORM\Table->find() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Association.php, line 849
+Cake\ORM\Association->find() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PrestamosController.php, line 24
+App\Controller\PrestamosController->add() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-14 06:18:12 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /prestamos/add?libro_id=8
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2720
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2649
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 1296
+Cake\ORM\Table->find() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Association.php, line 849
+Cake\ORM\Association->find() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PrestamosController.php, line 24
+App\Controller\PrestamosController->add() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-14 06:19:09 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /prestamos/add?libro_id=8
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2720
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2649
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 1296
+Cake\ORM\Table->find() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Association.php, line 849
+Cake\ORM\Association->find() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PrestamosController.php, line 24
+App\Controller\PrestamosController->add() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-14 06:35:53 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /prestamos/add?libro_id=9
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2720
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2649
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 1296
+Cake\ORM\Table->find() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Association.php, line 849
+Cake\ORM\Association->find() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PrestamosController.php, line 24
+App\Controller\PrestamosController->add() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-14 06:46:19 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /prestamos/add?libro_id=9
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2720
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2649
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 1296
+Cake\ORM\Table->find() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Association.php, line 849
+Cake\ORM\Association->find() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PrestamosController.php, line 24
+App\Controller\PrestamosController->add() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-14 06:46:25 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /prestamos/add?libro_id=9
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2720
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2649
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 1296
+Cake\ORM\Table->find() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Association.php, line 849
+Cake\ORM\Association->find() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PrestamosController.php, line 24
+App\Controller\PrestamosController->add() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-14 06:47:34 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /prestamos/add?libro_id=9
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2720
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2649
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 1296
+Cake\ORM\Table->find() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Association.php, line 849
+Cake\ORM\Association->find() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PrestamosController.php, line 24
+App\Controller\PrestamosController->add() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-14 06:47:59 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /prestamos/add?libro_id=9
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2720
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2649
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 1296
+Cake\ORM\Table->find() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Association.php, line 849
+Cake\ORM\Association->find() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PrestamosController.php, line 24
+App\Controller\PrestamosController->add() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-14 06:48:35 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /prestamos/add?libro_id=9
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2720
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2649
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 1296
+Cake\ORM\Table->find() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Association.php, line 849
+Cake\ORM\Association->find() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PrestamosController.php, line 24
+App\Controller\PrestamosController->add() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-14 06:49:18 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /prestamos/add?libro_id=9
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2720
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2649
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 1296
+Cake\ORM\Table->find() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Association.php, line 849
+Cake\ORM\Association->find() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PrestamosController.php, line 24
+App\Controller\PrestamosController->add() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-14 06:51:22 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /prestamos/add?libro_id=9
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2720
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2649
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 1296
+Cake\ORM\Table->find() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Association.php, line 849
+Cake\ORM\Association->find() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PrestamosController.php, line 24
+App\Controller\PrestamosController->add() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-14 06:53:44 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /prestamos/add?libro_id=9
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2720
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2649
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 1296
+Cake\ORM\Table->find() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Association.php, line 849
+Cake\ORM\Association->find() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PrestamosController.php, line 24
+App\Controller\PrestamosController->add() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-14 06:55:53 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /prestamos/add?libro_id=9
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2720
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2649
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 1296
+Cake\ORM\Table->find() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Association.php, line 849
+Cake\ORM\Association->find() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PrestamosController.php, line 24
+App\Controller\PrestamosController->add() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-14 06:55:55 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /prestamos/add?libro_id=9
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2720
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2649
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 1296
+Cake\ORM\Table->find() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Association.php, line 849
+Cake\ORM\Association->find() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PrestamosController.php, line 24
+App\Controller\PrestamosController->add() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-14 06:56:32 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /prestamos/add?libro_id=9
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2720
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2649
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 1296
+Cake\ORM\Table->find() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Association.php, line 849
+Cake\ORM\Association->find() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PrestamosController.php, line 24
+App\Controller\PrestamosController->add() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-14 07:06:13 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /prestamos/add?libro_id=9
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2720
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2649
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 1296
+Cake\ORM\Table->find() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Association.php, line 849
+Cake\ORM\Association->find() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PrestamosController.php, line 24
+App\Controller\PrestamosController->add() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-14 07:14:42 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /prestamos/add?libro_id=9
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2720
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2649
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 1296
+Cake\ORM\Table->find() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Association.php, line 849
+Cake\ORM\Association->find() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PrestamosController.php, line 24
+App\Controller\PrestamosController->add() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-14 07:14:54 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /prestamos
+Referer URL: http://localhost:8765/prestamos/add?libro_id=9
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2720
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2649
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 1296
+Cake\ORM\Table->find() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PrestamosController.php, line 31
+App\Controller\PrestamosController->index() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-14 07:17:21 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /prestamos
+Referer URL: http://localhost:8765/prestamos/add?libro_id=9
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2720
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2649
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 1296
+Cake\ORM\Table->find() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PrestamosController.php, line 31
+App\Controller\PrestamosController->index() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-14 07:19:52 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /prestamos
+Referer URL: http://localhost:8765/prestamos/add?libro_id=9
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2720
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2649
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 1296
+Cake\ORM\Table->find() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PrestamosController.php, line 31
+App\Controller\PrestamosController->index() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-14 07:19:54 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /prestamos/add?libro_id=9
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2720
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2649
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 1296
+Cake\ORM\Table->find() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Association.php, line 849
+Cake\ORM\Association->find() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PrestamosController.php, line 24
+App\Controller\PrestamosController->add() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-14 07:32:57 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /prestamos/add?libro_id=9
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2720
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2649
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 1296
+Cake\ORM\Table->find() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Association.php, line 849
+Cake\ORM\Association->find() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PrestamosController.php, line 24
+App\Controller\PrestamosController->add() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-14 07:33:15 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /prestamos/add?libro_id=9
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2720
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2649
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 1296
+Cake\ORM\Table->find() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Association.php, line 849
+Cake\ORM\Association->find() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PrestamosController.php, line 24
+App\Controller\PrestamosController->add() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-14 07:47:06 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /Prestamos/index
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2720
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2649
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 1296
+Cake\ORM\Table->find() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PrestamosController.php, line 31
+App\Controller\PrestamosController->index() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-14 07:47:14 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /Prestamos/index
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2720
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2649
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 1296
+Cake\ORM\Table->find() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PrestamosController.php, line 31
+App\Controller\PrestamosController->index() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-14 07:48:22 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /prestamos/add?libro_id=10
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2720
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2649
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 1296
+Cake\ORM\Table->find() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Association.php, line 849
+Cake\ORM\Association->find() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PrestamosController.php, line 24
+App\Controller\PrestamosController->add() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-14 15:27:00 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /prestamos/add?libro_id=13
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2720
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2649
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 1296
+Cake\ORM\Table->find() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Association.php, line 849
+Cake\ORM\Association->find() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PrestamosController.php, line 24
+App\Controller\PrestamosController->add() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-14 15:27:19 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /prestamos/index
+Referer URL: http://localhost:8765/prestamos/add?libro_id=13
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2720
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2649
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 1296
+Cake\ORM\Table->find() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PrestamosController.php, line 31
+App\Controller\PrestamosController->index() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-14 15:27:27 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /prestamos/add?libro_id=13
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2720
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2649
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 1296
+Cake\ORM\Table->find() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Association.php, line 849
+Cake\ORM\Association->find() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PrestamosController.php, line 24
+App\Controller\PrestamosController->add() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-14 15:38:32 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /Prestamos/index
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2720
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2649
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 1296
+Cake\ORM\Table->find() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PrestamosController.php, line 31
+App\Controller\PrestamosController->index() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-22 14:50:10 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /prestamos/add?libro_id=12
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2720
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2649
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 1296
+Cake\ORM\Table->find() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Association.php, line 849
+Cake\ORM\Association->find() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PrestamosController.php, line 24
+App\Controller\PrestamosController->add() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-22 14:50:22 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /prestamos/add?libro_id=11
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2720
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2649
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 1296
+Cake\ORM\Table->find() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Association.php, line 849
+Cake\ORM\Association->find() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PrestamosController.php, line 24
+App\Controller\PrestamosController->add() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-22 14:50:39 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /prestamos/index
+Referer URL: http://localhost:8765/prestamos/add?libro_id=11
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2720
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2649
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 1296
+Cake\ORM\Table->find() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PrestamosController.php, line 31
+App\Controller\PrestamosController->index() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-26 23:42:15 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /prestamos/add?libro_id=19
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2720
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2649
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 1296
+Cake\ORM\Table->find() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Association.php, line 849
+Cake\ORM\Association->find() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PrestamosController.php, line 24
+App\Controller\PrestamosController->add() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
+2024-11-27 04:37:12 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /Prestamos/index
+Referer URL: http://localhost:8765/
+Trace:
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2720
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 2649
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php, line 1296
+Cake\ORM\Table->find() C:\xampp\htdocs\proyecto_cbtis\src\Controller\PrestamosController.php, line 31
+App\Controller\PrestamosController->index() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php, line 503
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\proyecto_cbtis\webroot\index.php, line 37
+[main]
+
