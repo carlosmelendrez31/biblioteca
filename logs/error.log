@@ -2111,3 +2111,527 @@ Stack Trace:
 - [main]:
 
 Request URL: /
+2024-11-29 21:19:34 error: [Cake\View\Exception\MissingTemplateException] Template file `Usuarios\editar.php` could not be found.
+
+The following paths were searched:
+
+- `C:\xampp\htdocs\proyecto_cbtis\templates\Usuarios\editar.php`
+- `C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\templates\Usuarios\editar.php`
+ in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\View\View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Usuarios\\editar.php',
+  'paths' => 
+  array (
+    0 => 'C:\\xampp\\htdocs\\proyecto_cbtis\\templates\\',
+    1 => 'C:\\xampp\\htdocs\\proyecto_cbtis\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- CORE\src\View\View.php:782
+- CORE\src\Controller\Controller.php:710
+- CORE\src\Controller\Controller.php:514
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /usuarios/editar/2
+Referer URL: http://localhost:8765/usuarios/listar
+2024-11-29 21:21:42 error: [Cake\Database\Exception\QueryException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`bibliotecaa`.`prestamos`, CONSTRAINT `prestamos_ibfk_1` FOREIGN KEY (`usuario_id`) REFERENCES `usuarios` (`id`)) in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Database\Driver.php on line 383
+Stack Trace:
+- CORE\src\Database\Driver.php:359
+- CORE\src\Database\Driver\Mysql.php:183
+- CORE\src\Database\Connection.php:280
+- CORE\src\Core\Retry\CommandRetry.php:71
+- CORE\src\Database\Connection.php:280
+- CORE\src\Database\Query.php:223
+- CORE\src\ORM\Table.php:2604
+- CORE\src\ORM\Table.php:2440
+- CORE\src\ORM\Table.php:1604
+- CORE\src\Database\Connection.php:649
+- CORE\src\ORM\Table.php:1604
+- CORE\src\ORM\Table.php:2441
+- APP/Controller\UsuariosController.php:55
+- CORE\src\Controller\Controller.php:503
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:162
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`bibliotecaa`.`prestamos`, CONSTRAINT `prestamos_ibfk_1` FOREIGN KEY (`usuario_id`) REFERENCES `usuarios` (`id`)) in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Database\Statement\Statement.php on line 146
+Stack Trace:
+- CORE\src\Database\Statement\Statement.php:146
+- CORE\src\Database\Driver.php:341
+- CORE\src\Database\Driver\Mysql.php:183
+- CORE\src\Database\Connection.php:280
+- CORE\src\Core\Retry\CommandRetry.php:71
+- CORE\src\Database\Connection.php:280
+- CORE\src\Database\Query.php:223
+- CORE\src\ORM\Table.php:2604
+- CORE\src\ORM\Table.php:2440
+- CORE\src\ORM\Table.php:1604
+- CORE\src\Database\Connection.php:649
+- CORE\src\ORM\Table.php:1604
+- CORE\src\ORM\Table.php:2441
+- APP/Controller\UsuariosController.php:55
+- CORE\src\Controller\Controller.php:503
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:162
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /usuarios/eliminar/3
+Referer URL: http://localhost:8765/usuarios/listar
+2024-11-29 21:54:44 error: [Cake\Database\Exception\DatabaseException] Undefined property `Prestamos`. You have not defined the `Prestamos` association on `App\Model\Table\UsuariosTable`. in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php on line 2850
+Stack Trace:
+- APP/Controller\UsuariosController.php:57
+- CORE\src\Controller\Controller.php:503
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:162
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /usuarios/eliminar/3
+Referer URL: http://localhost:8765/usuarios/listar
+2024-11-29 21:55:40 error: [Cake\Database\Exception\DatabaseException] Undefined property `Prestamos`. You have not defined the `Prestamos` association on `App\Model\Table\UsuariosTable`. in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php on line 2850
+Stack Trace:
+- APP/Controller\UsuariosController.php:57
+- CORE\src\Controller\Controller.php:503
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:162
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /usuarios/eliminar/3
+Referer URL: http://localhost:8765/usuarios/listar
+2024-11-29 22:00:09 error: [Cake\Database\Exception\DatabaseException] Undefined property `Prestamos`. You have not defined the `Prestamos` association on `App\Model\Table\UsuariosTable`. in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php on line 2850
+Stack Trace:
+- APP/Controller\UsuariosController.php:57
+- CORE\src\Controller\Controller.php:503
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:162
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /usuarios/eliminar/3
+Referer URL: http://localhost:8765/usuarios/listar
+2024-11-29 22:01:32 error: [Cake\Database\Exception\DatabaseException] Undefined property `Prestamos`. You have not defined the `Prestamos` association on `App\Model\Table\UsuariosTable`. in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\ORM\Table.php on line 2850
+Stack Trace:
+- APP/Controller\UsuariosController.php:57
+- CORE\src\Controller\Controller.php:503
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:162
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /usuarios/eliminar/3
+Referer URL: http://localhost:8765/usuarios/listar
+2024-11-29 22:06:42 error: [Cake\Controller\Exception\MissingActionException] Action `PrestamosController::editar()` could not be found, or is not accessible. in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Controller\Controller.php on line 483
+Exception Attributes: array (
+  'controller' => 'PrestamosController',
+  'action' => 'editar',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:161
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /prestamos/editar/1
+Referer URL: http://localhost:8765/Prestamos/index
+2024-11-29 23:37:05 error: [Cake\Database\Exception\QueryException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'contrasena' in 'where clause' in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Database\Driver.php on line 383
+Stack Trace:
+- CORE\src\Database\Driver.php:359
+- CORE\src\Database\Driver\Mysql.php:178
+- CORE\src\Database\Connection.php:280
+- CORE\src\Core\Retry\CommandRetry.php:71
+- CORE\src\Database\Connection.php:280
+- CORE\src\Database\Query.php:223
+- CORE\src\Database\Query\SelectQuery.php:122
+- CORE\src\ORM\Query\SelectQuery.php:1578
+- CORE\src\ORM\Query\SelectQuery.php:384
+- CORE\src\ORM\Query\SelectQuery.php:590
+- APP/Controller\UsuariosController.php:79
+- CORE\src\Controller\Controller.php:503
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:162
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'contrasena' in 'where clause' in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Database\Statement\Statement.php on line 146
+Stack Trace:
+- CORE\src\Database\Statement\Statement.php:146
+- CORE\src\Database\Driver.php:341
+- CORE\src\Database\Driver\Mysql.php:178
+- CORE\src\Database\Connection.php:280
+- CORE\src\Core\Retry\CommandRetry.php:71
+- CORE\src\Database\Connection.php:280
+- CORE\src\Database\Query.php:223
+- CORE\src\Database\Query\SelectQuery.php:122
+- CORE\src\ORM\Query\SelectQuery.php:1578
+- CORE\src\ORM\Query\SelectQuery.php:384
+- CORE\src\ORM\Query\SelectQuery.php:590
+- APP/Controller\UsuariosController.php:79
+- CORE\src\Controller\Controller.php:503
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:162
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+Referer URL: http://localhost:8765/
+2024-11-29 23:37:18 error: [Cake\Database\Exception\QueryException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'contrasena' in 'where clause' in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Database\Driver.php on line 383
+Stack Trace:
+- CORE\src\Database\Driver.php:359
+- CORE\src\Database\Driver\Mysql.php:178
+- CORE\src\Database\Connection.php:280
+- CORE\src\Core\Retry\CommandRetry.php:71
+- CORE\src\Database\Connection.php:280
+- CORE\src\Database\Query.php:223
+- CORE\src\Database\Query\SelectQuery.php:122
+- CORE\src\ORM\Query\SelectQuery.php:1578
+- CORE\src\ORM\Query\SelectQuery.php:384
+- CORE\src\ORM\Query\SelectQuery.php:590
+- APP/Controller\UsuariosController.php:79
+- CORE\src\Controller\Controller.php:503
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:162
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'contrasena' in 'where clause' in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Database\Statement\Statement.php on line 146
+Stack Trace:
+- CORE\src\Database\Statement\Statement.php:146
+- CORE\src\Database\Driver.php:341
+- CORE\src\Database\Driver\Mysql.php:178
+- CORE\src\Database\Connection.php:280
+- CORE\src\Core\Retry\CommandRetry.php:71
+- CORE\src\Database\Connection.php:280
+- CORE\src\Database\Query.php:223
+- CORE\src\Database\Query\SelectQuery.php:122
+- CORE\src\ORM\Query\SelectQuery.php:1578
+- CORE\src\ORM\Query\SelectQuery.php:384
+- CORE\src\ORM\Query\SelectQuery.php:590
+- APP/Controller\UsuariosController.php:79
+- CORE\src\Controller\Controller.php:503
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:162
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+Referer URL: http://localhost:8765/
+2024-11-29 23:47:02 error: [Cake\Database\Exception\QueryException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'paco@gmail.com' for key 'email' in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Database\Driver.php on line 383
+Stack Trace:
+- CORE\src\Database\Driver.php:359
+- CORE\src\Database\Driver\Mysql.php:183
+- CORE\src\Database\Connection.php:280
+- CORE\src\Core\Retry\CommandRetry.php:71
+- CORE\src\Database\Connection.php:280
+- CORE\src\Database\Query.php:223
+- CORE\src\ORM\Table.php:2185
+- CORE\src\ORM\Table.php:2078
+- CORE\src\ORM\Table.php:1973
+- CORE\src\ORM\Table.php:1604
+- CORE\src\Database\Connection.php:649
+- CORE\src\ORM\Table.php:1604
+- CORE\src\ORM\Table.php:1974
+- APP/Controller\UsuariosController.php:23
+- CORE\src\Controller\Controller.php:503
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:162
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'paco@gmail.com' for key 'email' in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Database\Statement\Statement.php on line 146
+Stack Trace:
+- CORE\src\Database\Statement\Statement.php:146
+- CORE\src\Database\Driver.php:341
+- CORE\src\Database\Driver\Mysql.php:183
+- CORE\src\Database\Connection.php:280
+- CORE\src\Core\Retry\CommandRetry.php:71
+- CORE\src\Database\Connection.php:280
+- CORE\src\Database\Query.php:223
+- CORE\src\ORM\Table.php:2185
+- CORE\src\ORM\Table.php:2078
+- CORE\src\ORM\Table.php:1973
+- CORE\src\ORM\Table.php:1604
+- CORE\src\Database\Connection.php:649
+- CORE\src\ORM\Table.php:1604
+- CORE\src\ORM\Table.php:1974
+- APP/Controller\UsuariosController.php:23
+- CORE\src\Controller\Controller.php:503
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:162
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /usuarios/agregar
+Referer URL: http://localhost:8765/usuarios/agregar
+2024-11-30 00:00:31 error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in C:\xampp\htdocs\proyecto_cbtis\vendor\cakephp\cakephp\src\Database\Statement\Statement.php on line 146
+Stack Trace:
+- CORE\src\Database\Statement\Statement.php:146
+- CORE\src\Database\Driver.php:341
+- CORE\src\Database\Driver\Mysql.php:183
+- CORE\src\Database\Connection.php:280
+- CORE\src\Core\Retry\CommandRetry.php:71
+- CORE\src\Database\Connection.php:280
+- CORE\src\Database\Query.php:223
+- CORE\src\ORM\Table.php:2185
+- CORE\src\ORM\Table.php:2078
+- CORE\src\ORM\Table.php:1973
+- CORE\src\ORM\Table.php:1604
+- CORE\src\Database\Connection.php:649
+- CORE\src\ORM\Table.php:1604
+- CORE\src\ORM\Table.php:1974
+- APP/Controller\PagesController.php:31
+- CORE\src\Controller\Controller.php:503
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:162
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /pages/add
+Referer URL: http://localhost:8765/pages/add

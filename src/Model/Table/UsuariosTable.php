@@ -12,5 +12,11 @@ class UsuariosTable extends Table
         $this->setTable('usuarios'); // Especifica el nombre de la tabla
         $this->setPrimaryKey('id');   // Especifica la clave primaria de la tabla
         $this->addBehavior('Timestamp'); // Añade comportamiento de marca de tiempo
+
+        $this->hasMany('prestamos', [
+            'foreignKey' => 'usuario_id',
+        ]);
     }
+
+
 }

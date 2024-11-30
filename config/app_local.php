@@ -41,7 +41,7 @@ return [
         'host' => 'localhost',
         'username' => 'root',
         'password' => '',
-        'database' => 'bibliotecaa',
+        'database' => 'biblioteca',
         'encoding' => 'utf8mb4',
         'timezone' => 'UTC',
         'flags' => [],

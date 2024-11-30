@@ -98,6 +98,7 @@ button:hover {
         <legend><?= __('Agregar Usuario') ?></legend>
         
         <?= $this->Form->control('nombre_completo', ['label' => 'Nombre Completo', 'required' => true]) ?>
+        <?= $this->Form->control('contrasena', ['label' => 'contraseña','password', 'required' => true]) ?>
         <?= $this->Form->control('celular', ['label' => 'Celular']) ?>
         <?= $this->Form->control('email', ['label' => 'Email', 'required' => true]) ?>
         <?= $this->Form->control('domicilio', ['label' => 'Domicilio', 'type' => 'textarea']) ?>

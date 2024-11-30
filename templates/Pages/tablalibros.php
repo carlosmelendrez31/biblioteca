@@ -1,0 +1,115 @@
+<header>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="<?= $this->Url->build('/pages/home'); ?>">Biblioteca Los Pipirisnais</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="<?= $this->Url->build('/usuarios/listar'); ?>">Ver Usuarios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?= $this->Url->build('/usuarios/agregar'); ?>">Agregar Usuario</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?= $this->Url->build('/Prestamos/index'); ?>">Ver Préstamos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Usuario</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+        }
+
+        .form-group label {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .btn-primary {
+            background-color: #4caf50;
+            border: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: #45a049;
+        }
+
+        .navbar {
+            background-color: #5f27cd;
+        }
+
+        .navbar-brand, .nav-link {
+            color: #fff !important;
+        }
+
+        .navbar-brand:hover, .nav-link:hover {
+            color: #ffeaa7 !important;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-end">
+        <a href="<?= $this->Url->build(['action' => 'add']) ?>" class="btn btn-primary">
+            <i class="fas fa-plus"></i> Agregar Libro Nuevo
+        </a>
+    </div>
+</div>
+
+<div class="container mt-4">
+    <h2>Lista de Libros</h2>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Título</th>
+                <th>Autor</th>
+                <th>ISBN</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php foreach ($libros as $libro): ?>
+                <tr>
+                    <td><?= $libro->id ?></td>
+                    <td><?= h($libro->titulo) ?></td>
+                    <td><?= h($libro->autor) ?></td>
+                    <td><?= h($libro->isbn) ?></td>
+                    <td>
+                        <?= $this->Html->link('Editar', ['action' => 'edit', $libro->id], ['class' => 'btn btn-warning']) ?>
+                        <?= $this->Form->postLink('Eliminar', ['action' => 'delete', $libro->id], ['confirm' => '¿Estás seguro?', 'class' => 'btn btn-danger']) ?>
+                    </td>
+                </tr>
+            <?php endforeach; ?>
+        </tbody>
+    </table>
+</div>

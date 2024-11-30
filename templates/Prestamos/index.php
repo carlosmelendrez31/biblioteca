@@ -14,7 +14,7 @@
         }
     </style>
 <nav class="navbar navbar-expand-lg">
-    <a class="navbar-brand" href="<?= $this->Url->build('/');?>">Biblioteca Los Pipirisnais</a>
+    <a class="navbar-brand" href="<?= $this->Url->build('/pages/home');?>">Biblioteca Los Pipirisnais</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -35,7 +35,7 @@
 </header>
 <h1>Lista de Préstamos</h1>
 
-<table class="table table-striped">
+<<table class="table table-striped">
     <thead>
         <tr>
             <th>ID</th>
@@ -45,18 +45,27 @@
             <th>Fecha de Vencimiento</th>
             <th>Extendido</th>
             <th>Días de Retraso</th>
+            <th>Acciones</th>
         </tr>
     </thead>
     <tbody>
         <?php foreach ($prestamos as $prestamo): ?>
             <tr>
                 <td><?= h($prestamo->id) ?></td>
-                <td><?= h($prestamo->usuario->nombre) ?></td>
+                <td><?= h($prestamo->usuario->nombre_completo) ?></td>
                 <td><?= h($prestamo->libro->titulo) ?></td>
                 <td><?= h($prestamo->fecha_inicio->format('Y-m-d')) ?></td>
                 <td><?= h($prestamo->fecha_vencimiento->format('Y-m-d')) ?></td>
                 <td><?= $prestamo->extendido ? 'Sí' : 'No' ?></td>
                 <td><?= h($prestamo->dias_retraso) ?></td>
+                <td>
+                    <a href="<?= $this->Url->build(['action' => 'editar', $prestamo->id]) ?>" class="btn btn-warning btn-sm">Editar</a>
+                    <?= $this->Form->postLink(
+                        'Eliminar',
+                        ['action' => 'eliminar', $prestamo->id],
+                        ['confirm' => '¿Está seguro de que desea eliminar este préstamo?', 'class' => 'btn btn-danger btn-sm']
+                    ) ?>
+                </td>
             </tr>
         <?php endforeach; ?>
     </tbody>

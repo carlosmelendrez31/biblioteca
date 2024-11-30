@@ -35,7 +35,10 @@ return function (RouteBuilder $routes): void {
 
     $routes->scope('/', function (RouteBuilder $routes) {
         // Ruta principal para la raíz del sitio
-        $routes->connect('/', ['controller' => 'Pages', 'action' => 'home']);
+
+        $routes->connect('/', ['controller' => 'Usuarios', 'action' => 'login']);
+
+        
 
 
         

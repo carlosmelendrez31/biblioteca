@@ -33,4 +33,39 @@ class PrestamosController extends AppController
 
         $this->set(compact('prestamos'));
     }
+    public function editar($id = null)
+{
+    $prestamo = $this->Prestamos->get($id, [
+        'contain' => [],
+    ]);
+
+    if ($this->request->is(['patch', 'post', 'put'])) {
+        $prestamo = $this->Prestamos->patchEntity($prestamo, $this->request->getData());
+        if ($this->Prestamos->save($prestamo)) {
+            $this->Flash->success(__('El préstamo ha sido actualizado.'));
+
+            return $this->redirect(['action' => 'index']);
+        }
+        $this->Flash->error(__('No se pudo actualizar el préstamo. Inténtelo de nuevo.'));
+    }
+
+    $usuarios = $this->Prestamos->Usuarios->find('list', ['limit' => 200]);
+    $libros = $this->Prestamos->Libros->find('list', ['limit' => 200]);
+    $this->set(compact('prestamo', 'usuarios', 'libros'));
+}
+public function eliminar($id = null)
+{
+    $this->request->allowMethod(['post', 'delete']); // Permite solo solicitudes POST o DELETE
+
+    $prestamo = $this->Prestamos->get($id); // Obtiene el préstamo por ID
+
+    if ($this->Prestamos->delete($prestamo)) {
+        $this->Flash->success(__('El préstamo ha sido eliminado exitosamente.'));
+    } else {
+        $this->Flash->error(__('No se pudo eliminar el préstamo. Intente nuevamente.'));
+    }
+
+    return $this->redirect(['action' => 'index']); // Redirige al índice de préstamos
+}
+
 }

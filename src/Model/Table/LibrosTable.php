@@ -10,6 +10,11 @@ class LibrosTable extends Table
         parent::initialize($config);
         $this->setTable('libros');
         $this->setPrimaryKey('id');
+
+        $this->belongsTo('Categorias', [
+            'foreignKey' => 'categoria_id',
+            'joinType' => 'INNER', // Si la categoría es obligatoria
+        ]);
     }
 }
 

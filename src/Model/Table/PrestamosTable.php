@@ -22,6 +22,7 @@ class PrestamosTable extends Table
             'foreignKey' => 'libro_id',
             'joinType' => 'INNER',
         ]);
+        
     }
 
     public function validationDefault(Validator $validator): Validator
